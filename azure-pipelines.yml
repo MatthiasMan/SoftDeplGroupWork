@@ -53,7 +53,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'MatthiasManSoftDeplGroupWork-4990.default'
+    environment: 'MatthiasManSoftDeplGroupWork.default'
     strategy:
       runOnce:
         deploy:
