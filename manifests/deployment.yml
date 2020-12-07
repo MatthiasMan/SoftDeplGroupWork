@@ -1,19 +1,19 @@
 apiVersion : apps/v1
 kind: Deployment
 metadata:
-  name: image 
+  name: matthiasmansoftdeplgroupworkhellowexpress 
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: image
+      app: matthiasmansoftdeplgroupworkhellowexpress
   template:
     metadata:
       labels:
-        app: image 
+        app: matthiasmansoftdeplgroupworkhellowexpress 
     spec:
       containers:
-        - name: image 
-          image: groupworkregistry.azurecr.io/image
+        - name: matthiasmansoftdeplgroupworkhellowexpress 
+          image: groupworkregistry.azurecr.io/matthiasmansoftdeplgroupworkhellowexpress
           ports:
           - containerPort: 3000

@@ -12,7 +12,7 @@ variables:
 
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '5eb5eb41-2b93-441b-9047-cb215e25ddf3'
-  imageRepository: 'image'
+  imageRepository: 'matthiasmansoftdeplgroupworkhellowexpress'
   containerRegistry: 'groupworkregistry.azurecr.io'
   dockerfilePath: 'Dockerfile'
   tag: '$(Build.BuildId)'
