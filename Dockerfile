@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 
 # Install app dependencies
 # Copy package.json AND package-lock.json
-COPY HelloWExpress/package*.json ./
+COPY package*.json ./
 
 RUN npm install
 
