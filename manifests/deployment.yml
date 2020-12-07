@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: matthiasmansoftdeplgroupwork 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: matthiasmansoftdeplgroupwork
+  template:
+    metadata:
+      labels:
+        app: matthiasmansoftdeplgroupwork 
+    spec:
+      containers:
+        - name: matthiasmansoftdeplgroupwork 
+          image: groupworkregistry.azurecr.io/matthiasmansoftdeplgroupwork
+          ports:
+          - containerPort: 3000
